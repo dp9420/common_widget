@@ -1,0 +1,80 @@
+name: common_widget
+description: Common Place for frequently used widgets
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  cached_network_image: ^2.5.0
+  get: ^3.24.0
+  syncfusion_flutter_datepicker: ^18.4.39-beta
+  connectivity: ^2.0.2
+  advance_pdf_viewer: ^1.2.2
+  flutter_pin_code_fields: ^1.1.0
+  doc_widget: ^0.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.11.1
+  doc_widget_builder:
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/ic_date_picker.png
+    - assets/images/ic_logo.png
+    - assets/images/ic_logo_black.png
+    - assets/images/ic_no_data_found.jpg
+    - assets/images/ic_error_loading_page.png
+    - assets/images/ic_no_internet_connectivity.jpg
+    - assets/images/ic_something_went_wrong.png
+    - assets/images/ic_default_placeholder.png
+
+
+
+
+  fonts:
+    - family: JioType Black
+      fonts:
+        - asset: assets/fonts/JioTypeBlack.ttf
+
+    - family: JioType Bold
+      fonts:
+        - asset: assets/fonts/JioTypeBold.ttf
+
+    - family: JioType Light
+      fonts:
+        - asset: assets/fonts/JioTypeLight.ttf
+
+    - family: JioType Light Italic
+      fonts:
+        - asset: assets/fonts/JioTypeLightItalic.ttf
+
+    - family: JioType Medium
+      fonts:
+        - asset: assets/fonts/JioTypeMedium.ttf
+
+    - family: JioType Medium Italic
+      fonts:
+        - asset: assets/fonts/JioTypeMediumItalic.ttf
+
+    - family: SF Pro Display Medium
+      fonts:
+        - asset: assets/fonts/SFProDisplayMedium.ttf
+
+    - family: Helvetica Neue Medium
+      fonts:
+        - asset: assets/fonts/helvetica-neue-medium.ttf
+
